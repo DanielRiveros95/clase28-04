@@ -1,16 +1,8 @@
-let btnEnv = document.getElementById("btnEnviar");
-let dato1 = document.getElementById("dato1");
-let dato2 = document.getElementById("dato2");
-rotulo1. innerHTML ="ingrese la base"
-rotulo2. document.getElementById("rotulo");
-
-let base: number = Number(dato1.value);
-let altura: number = Number(dato2.value);
-
-let area: number = base * altura;
+let btnArea = document.getElementById("btnArea");
+let dato1 = document.getElementById("datoBase");
+let dato2 = document.getElementById("datoAltura");
 
 
-    console.log("area");
-
-  });
-  
+btnArea.addEventListener("click", () => {
+  console.log("el area es:" datoBase.value * datoAltura.value);
+});
